@@ -245,6 +245,7 @@ If you find this work useful for your research, please consider citing our paper
   title={TeLL: Log Level Suggestions via Modeling Multi-level Code Block Information},
   author={Liu, Jiahao and Zeng, Jun and Wang, Xiang and Ji, Kaihang and Liang, Zhenkai},
   booktitle={Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  pages = {27-38},
   year={2022}
 }
 ```
