@@ -102,7 +102,6 @@ class GNNLoader(Data):
             d_inv_sqrt = np.power(rowsum, -0.5).flatten()
             d_inv_sqrt[np.isinf(d_inv_sqrt)] = 0.
             d_mat_inv_sqrt = sp.diags(d_inv_sqrt)
-            # Different from KGAT's implementation
             # bi_norm = adj.dot(d_mat_inv_sqrt).transpose().dot(d_mat_inv_sqrt)
             bi_norm = d_mat_inv_sqrt.dot(adj).dot(d_mat_inv_sqrt)
             return bi_norm
