@@ -236,3 +236,15 @@ python tf_driver.py --dataset zookeeper --use_message 0 --validate --test
 2022-01-28 20:16:47,656 |   INFO | [macro_f1 = 0.894223]
 2022-01-28 20:16:47,657 |   INFO | [aod = 0.888796]
 ```
+
+## Citation
+If you find this work useful for your research, please consider citing our paper:
+
+```
+@inproceedings{liu2022tell,
+  title={TeLL: Log Level Suggestions via Modeling Multi-level Code Block Information},
+  author={Liu, Jiahao and Zeng, Jun and Wang, Xiang and Ji, Kaihang and Liang, Zhenkai},
+  booktitle={Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  year={2022}
+}
+```
